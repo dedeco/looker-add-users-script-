@@ -70,13 +70,13 @@ verify_ssl=true
 Run the script with the `--group-name` parameter followed by the name of the group you want to create or use:
 
 ```bash
-python looker_group_script.py --group-name "Your Group Name"
+python add_users.py --group-name "Your Group Name"
 ```
 
 ### Example
 
 ```bash
-python looker_group_script.py --group-name "Data Analysts"
+python add_users.py  --group-name "Data Analysts"
 ```
 
 ### Expected Output
